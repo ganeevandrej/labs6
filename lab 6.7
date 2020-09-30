@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	float A, b;
+	scanf_s("%f", &A);
+	b = A * A;
+	A = A * b;
+	A = A * b;
+	b = A * A;
+	A = A * b;
+	printf("%.1f", A);
+	return 0;
+}
